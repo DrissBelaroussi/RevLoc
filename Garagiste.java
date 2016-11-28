@@ -17,4 +17,8 @@ public String getAdresse(){
 	return adresse ;
 }	
 
+public void setnom(String nom){
+	this.nom = nom ;
+}
+
 }
