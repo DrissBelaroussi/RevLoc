@@ -1,11 +1,20 @@
 public class Garagiste {
 		private String nom ;
 		private String adresse ;
-		private ville ; 
+		
 		
 
-public Garagiste( String nom , String adresse , String ville ){
+public Garagiste( String nom , String adresse ){
 	this.nom = nom ;
 	this.adresse = adresse ; 
-	this.ville = ville ; 
+	
+}
+
+public String getNom() {
+	return nom ;
+}
+public String getAdresse(){
+	return adresse ;
+}	
+
 }
